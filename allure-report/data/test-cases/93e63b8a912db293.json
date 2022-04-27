@@ -1,0 +1,117 @@
+{
+  "uid" : "93e63b8a912db293",
+  "name" : "Test01 - Verification of calculation result.",
+  "fullName" : "sanity.DesktopCalculator.VerifyCalculationResult01",
+  "historyId" : "a74f5fefea55764877490371bae5de84",
+  "time" : {
+    "start" : 1650431649548,
+    "stop" : 1650431652835,
+    "duration" : 3287
+  },
+  "description" : "This test verifies a multiplication operation in the calculator.",
+  "descriptionHtml" : "<p>This test verifies a multiplication operation in the calculator.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650431647558,
+      "stop" : 1650431649433,
+      "duration" : 1875
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650431649439,
+      "stop" : 1650431649476,
+      "duration" : 37
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650431652840,
+      "stop" : 1650431652840,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyCalculationResult01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "10284@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93e63b8a912db293.json",
+  "parameterValues" : [ "desktop" ]
+}

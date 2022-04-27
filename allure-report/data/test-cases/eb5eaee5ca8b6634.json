@@ -1,0 +1,117 @@
+{
+  "uid" : "eb5eaee5ca8b6634",
+  "name" : "Test02_AddAndVerifyUser",
+  "fullName" : "sanity.ReqResAPI.Test02_AddAndVerifyUser",
+  "historyId" : "ad4581cebc791326f03d282b277ce2d",
+  "time" : {
+    "start" : 1650363976023,
+    "stop" : 1650363976566,
+    "duration" : 543
+  },
+  "description" : "This test adds a new user to the list and verifies it.",
+  "descriptionHtml" : "<p>This test adds a new user to the list and verifies it.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650363972468,
+      "stop" : 1650363974421,
+      "duration" : 1953
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650363976020,
+      "stop" : 1650363976020,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650363976568,
+      "stop" : 1650363976568,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ReqResAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ReqResAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test02_AddAndVerifyUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ReqResAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "10152@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb5eaee5ca8b6634.json",
+  "parameterValues" : [ "api" ]
+}

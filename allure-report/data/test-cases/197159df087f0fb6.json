@@ -1,0 +1,414 @@
+{
+  "uid" : "197159df087f0fb6",
+  "name" : "Test06 - VerifyMainLogo",
+  "fullName" : "sanity.AtidStore.VerifyMainLogo",
+  "historyId" : "5c144174a349d6b543b46a4ee91fb304",
+  "time" : {
+    "start" : 1650898578655,
+    "stop" : 1650898579776,
+    "duration" : 1121
+  },
+  "description" : "This test verifies the main logo.",
+  "descriptionHtml" : "<p>This test verifies the main logo.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 23,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650898551707,
+      "stop" : 1650898557483,
+      "duration" : 5776
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650898578636,
+      "stop" : 1650898578649,
+      "duration" : 13
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test verifies the main logo.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Visual test of the main logo",
+      "time" : {
+        "start" : 1650898578655,
+        "stop" : 1650898579652,
+        "duration" : 997
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ExpectedImageName",
+        "value" : "LogoAtidCollageStore"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650898579781,
+      "stop" : 1650898580149,
+      "duration" : 368
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "end",
+    "time" : {
+      "start" : 1650898587895,
+      "stop" : 1650898588566,
+      "duration" : 671
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyMainLogo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "4972@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1e7cca66949841e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898490770,
+        "stop" : 1650898492030,
+        "duration" : 1260
+      }
+    }, {
+      "uid" : "7ea94bd49df7c44a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650898387052,
+        "stop" : 1650898388183,
+        "duration" : 1131
+      }
+    }, {
+      "uid" : "ef9f50e393290d21",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650898251700,
+        "stop" : 1650898253842,
+        "duration" : 2142
+      }
+    }, {
+      "uid" : "bfd993e83b00fe29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650794641914,
+        "stop" : 1650794642624,
+        "duration" : 710
+      }
+    }, {
+      "uid" : "49dbeb4523c009b2",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650792323083,
+        "stop" : 1650792324562,
+        "duration" : 1479
+      }
+    }, {
+      "uid" : "7ff2879a4cf5fe56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650790829571,
+        "stop" : 1650790830434,
+        "duration" : 863
+      }
+    }, {
+      "uid" : "2fedd810140a4331",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650790632724,
+        "stop" : 1650790634454,
+        "duration" : 1730
+      }
+    }, {
+      "uid" : "5a580007da7c456d",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650743633274,
+        "stop" : 1650743634887,
+        "duration" : 1613
+      }
+    }, {
+      "uid" : "af9c475e4975d83",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650743070604,
+        "stop" : 1650743072442,
+        "duration" : 1838
+      }
+    }, {
+      "uid" : "ac688e03d794799f",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650743009146,
+        "stop" : 1650743010507,
+        "duration" : 1361
+      }
+    }, {
+      "uid" : "53d2748d6c913e13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650742559077,
+        "stop" : 1650742560002,
+        "duration" : 925
+      }
+    }, {
+      "uid" : "e400fe28599c5ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650473326806,
+        "stop" : 1650473327531,
+        "duration" : 725
+      }
+    }, {
+      "uid" : "9c7317c864b3caba",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650473222018,
+        "stop" : 1650473223426,
+        "duration" : 1408
+      }
+    }, {
+      "uid" : "ffe2547d913bc982",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650473123630,
+        "stop" : 1650473125022,
+        "duration" : 1392
+      }
+    }, {
+      "uid" : "dc4927a66ddd9727",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650472604854,
+        "stop" : 1650472606308,
+        "duration" : 1454
+      }
+    }, {
+      "uid" : "22317cd9182ce73b",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650437632009,
+        "stop" : 1650437633003,
+        "duration" : 994
+      }
+    }, {
+      "uid" : "6613ff754620ce7f",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650437535655,
+        "stop" : 1650437536622,
+        "duration" : 967
+      }
+    }, {
+      "uid" : "4751c9d9f5f954dc",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650437302960,
+        "stop" : 1650437303897,
+        "duration" : 937
+      }
+    }, {
+      "uid" : "d2000d0075dfc3ee",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650437132565,
+        "stop" : 1650437133405,
+        "duration" : 840
+      }
+    }, {
+      "uid" : "7051d05fa70a9b59",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStoreLogoAtidCollageStore.PNG: (0x0) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650436812834,
+        "stop" : 1650436813516,
+        "duration" : 682
+      }
+    }, {
+      "uid" : "308dffeea46c297c",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650436553049,
+        "stop" : 1650436554069,
+        "duration" : 1020
+      }
+    }, {
+      "uid" : "caf0bbe1b1be7bee",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650145540779,
+        "stop" : 1650145542185,
+        "duration" : 1406
+      }
+    }, {
+      "uid" : "e7be4034199fe272",
+      "status" : "failed",
+      "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+      "time" : {
+        "start" : 1650143259149,
+        "stop" : 1650143260571,
+        "duration" : 1422
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "4273c7a066b9c5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/4273c7a066b9c5",
+        "status" : "failed",
+        "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+        "time" : {
+          "start" : 1650898251700,
+          "stop" : 1650898253842,
+          "duration" : 2142
+        }
+      }, {
+        "uid" : "19023e89d3afad48",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/19023e89d3afad48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650794641914,
+          "stop" : 1650794642624,
+          "duration" : 710
+        }
+      }, {
+        "uid" : "31e7733ad24e784d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/31e7733ad24e784d",
+        "status" : "failed",
+        "statusDetails" : "ERROR Comparing Image File FindFailed: C:\\\\ZachAbargil-FinalProject\\\\ImageRepository\\\\LogoAtidCollageStore.PNG: (180x84) in R[0,0 1920x1080]@S(0)\n  Line 2291, in file Region.java\n",
+        "time" : {
+          "start" : 1650792323083,
+          "stop" : 1650792324562,
+          "duration" : 1479
+        }
+      }, {
+        "uid" : "a3a487006fe3311a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/a3a487006fe3311a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650790829571,
+          "stop" : 1650790830434,
+          "duration" : 863
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "197159df087f0fb6.json",
+  "parameterValues" : [ "web" ]
+}

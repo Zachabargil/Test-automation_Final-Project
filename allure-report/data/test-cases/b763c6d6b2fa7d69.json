@@ -1,0 +1,224 @@
+{
+  "uid" : "b763c6d6b2fa7d69",
+  "name" : "Test02 - Verify advanced monthly payment",
+  "fullName" : "sanity.FinancialCalcMobile.VerifyFinancial02",
+  "historyId" : "799f185a2b53717aa9d8b87432079375",
+  "time" : {
+    "start" : 1650473752318,
+    "stop" : 1650473768544,
+    "duration" : 16226
+  },
+  "description" : "This test verifies the advanced monthly payment of a loan.",
+  "descriptionHtml" : "<p>This test verifies the advanced monthly payment of a loan.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650473704095,
+      "stop" : 1650473742130,
+      "duration" : 38035
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650473752289,
+      "stop" : 1650473752310,
+      "duration" : 21
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650473768551,
+      "stop" : 1650473768551,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.FinancialCalcMobile"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.FinancialCalcMobile"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyFinancial02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.FinancialCalcMobile"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "864@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "mobile"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a89cc831a4838104",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1650473670729,
+        "stop" : 1650473670730,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c2099793e5223a91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650436439016,
+        "stop" : 1650436453576,
+        "duration" : 14560
+      }
+    }, {
+      "uid" : "a740cffd5f984adc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650436309447,
+        "stop" : 1650436324546,
+        "duration" : 15099
+      }
+    }, {
+      "uid" : "f4ab5c1fe10a9ab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650436144314,
+        "stop" : 1650436159011,
+        "duration" : 14697
+      }
+    }, {
+      "uid" : "2a1a17feccb6f2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650435892244,
+        "stop" : 1650435907195,
+        "duration" : 14951
+      }
+    }, {
+      "uid" : "b23a7393bc794fab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650433887125,
+        "stop" : 1650433900966,
+        "duration" : 13841
+      }
+    }, {
+      "uid" : "eec19709e744e869",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Located by By.chained({By.id: propertyTax}) (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650433761182,
+        "stop" : 1650433780727,
+        "duration" : 19545
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "9f81ee31739e79ca",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/9f81ee31739e79ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650473752318,
+          "stop" : 1650473768544,
+          "duration" : 16226
+        }
+      }, {
+        "uid" : "e9328604262df13e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/e9328604262df13e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650473752318,
+          "stop" : 1650473768544,
+          "duration" : 16226
+        }
+      }, {
+        "uid" : "f77609a1679632cb",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/f77609a1679632cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650473752318,
+          "stop" : 1650473768544,
+          "duration" : 16226
+        }
+      }, {
+        "uid" : "67ae8d302d11f3",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/67ae8d302d11f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650473752318,
+          "stop" : 1650473768544,
+          "duration" : 16226
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b763c6d6b2fa7d69.json",
+  "parameterValues" : [ "mobile" ]
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+
+    <!-- Web -->
+    <BrowserName>Chrome</BrowserName>
+    <url>http://atid.store/</url>
+    <ImageRepo>C:\\ZachAbargil-FinalProject\\ImageRepository\\</ImageRepo>
+
+ <!-- *************************************************************************************************** -->
+
+    <!-- Data Driven Testing -->
+    <DDTfile>./DDTFiles/Products.csv</DDTfile>
+
+ <!-- *************************************************************************************************** -->
+
+    <!-- API -->
+    <url_api>https://reqres.in/</url_api>
+
+ <!-- *************************************************************************************************** -->
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Users/צח/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
+
+ <!-- *************************************************************************************************** -->
+
+    <!-- Mobile -->
+    <UDID>5200cee3eaeb5549</UDID>
+    <AppPackage>com.financial.calculator</AppPackage>
+    <AppActivity>.FinancialCalculators</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+ <!-- *************************************************************************************************** -->
+
+    <!-- Desktop -->
+    <CalculatorAPP>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorAPP>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+ <!-- *************************************************************************************************** -->
+
+    <!-- DataBase -->
+    <DBURL>jdbc:mysql://remotemysql.com:3306/C1AOmH1Qb3</DBURL>
+    <DBUserName>C1AOmH1Qb3</DBUserName>
+    <DBPassword>1dj9lOK5Vj</DBPassword>
+
+</Enviroment>

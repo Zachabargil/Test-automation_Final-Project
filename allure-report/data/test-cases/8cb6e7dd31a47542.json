@@ -1,0 +1,171 @@
+{
+  "uid" : "8cb6e7dd31a47542",
+  "name" : "Test07 - Search Products",
+  "fullName" : "sanity.AtidStore.Searchproducts",
+  "historyId" : "2b47b92f6d358177be3cc6b662f7b38d",
+  "time" : {
+    "start" : 1650143190933,
+    "stop" : 1650143190934,
+    "duration" : 1
+  },
+  "description" : "This test search product in results using DDT.",
+  "descriptionHtml" : "<p>This test search product in results using DDT.</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+  "statusTrace" : "org.testng.TestNGException: \nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml\r\n\tat org.testng.internal.Parameters.createParams(Parameters.java:289)\r\n\tat org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)\r\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:721)\r\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\r\n\tat org.testng.TestRunner.run(TestRunner.java:591)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\r\n\tat org.testng.TestNG.run(TestNG.java:1000)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650143190928,
+      "stop" : 1650143190928,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650143190938,
+      "stop" : 1650143190938,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testMethod",
+    "value" : "Searchproducts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ZachAbargil-FinalProject"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "5628@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3e9c9f29eb496e1d",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650143190923,
+        "stop" : 1650143190923,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d4b06be2e3b88eb7",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650143190892,
+        "stop" : 1650143190896,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "2ac89cf78908b1e3",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/2ac89cf78908b1e3",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1650143190933,
+          "stop" : 1650143190934,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "3c3493680477b755",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/3c3493680477b755",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1650143190933,
+          "stop" : 1650143190934,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "c7aaf4a12b70376e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/c7aaf4a12b70376e",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1650143190933,
+          "stop" : 1650143190934,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "ea887a9febaa17f9",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/ea887a9febaa17f9",
+        "status" : "skipped",
+        "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+        "time" : {
+          "start" : 1650143190933,
+          "stop" : 1650143190934,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8cb6e7dd31a47542.json",
+  "parameterValues" : [ ]
+}

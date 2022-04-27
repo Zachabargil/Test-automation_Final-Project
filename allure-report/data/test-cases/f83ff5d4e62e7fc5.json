@@ -1,0 +1,230 @@
+{
+  "uid" : "f83ff5d4e62e7fc5",
+  "name" : "Test07 - Search Products",
+  "fullName" : "sanity.AtidStore.Searchproducts",
+  "historyId" : "7baad2d95b40f30c40a201f4b91abe6c",
+  "time" : {
+    "start" : 1650145527295,
+    "stop" : 1650145531541,
+    "duration" : 4246
+  },
+  "description" : "This test search product in results using DDT.",
+  "descriptionHtml" : "<p>This test search product in results using DDT.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650145516279,
+      "stop" : 1650145522211,
+      "duration" : 5932
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650145527277,
+      "stop" : 1650145527289,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test search product in results using DDT.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on element.",
+      "time" : {
+        "start" : 1650145527309,
+        "stop" : 1650145527883,
+        "duration" : 574
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (2b05e5f71d241e812b24747613d9532d)] -> xpath: //*[@id=\"menu-item-45\"]/a]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Business Flow: Search and verify product.",
+      "time" : {
+        "start" : 1650145527883,
+        "stop" : 1650145531471,
+        "duration" : 3588
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update text as human.",
+        "time" : {
+          "start" : 1650145527908,
+          "stop" : 1650145530649,
+          "duration" : 2741
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (2b05e5f71d241e812b24747613d9532d)] -> xpath: //*[@id=\"wc-block-search__input-1\"]]"
+        }, {
+          "name" : "text",
+          "value" : "boots"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element.",
+        "time" : {
+          "start" : 1650145530660,
+          "stop" : 1650145531363,
+          "duration" : 703
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (2b05e5f71d241e812b24747613d9532d)] -> xpath: //*[@id=\"block-7\"]/div/form/div/button]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Element Not Displayed.",
+        "time" : {
+          "start" : 1650145531421,
+          "stop" : 1650145531471,
+          "duration" : 50
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Element",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (2b05e5f71d241e812b24747613d9532d)] -> xpath: //*[@id=\"main\"]/div/p]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productName",
+        "value" : "boots"
+      }, {
+        "name" : "shouldExist",
+        "value" : "not-exist"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650145531545,
+      "stop" : 1650145531545,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testMethod",
+    "value" : "Searchproducts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "1068@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  }, {
+    "name" : "arg0",
+    "value" : "boots"
+  }, {
+    "name" : "arg1",
+    "value" : "not-exist"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f83ff5d4e62e7fc5.json",
+  "parameterValues" : [ "web", "boots", "not-exist" ]
+}

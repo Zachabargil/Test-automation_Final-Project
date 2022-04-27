@@ -1,0 +1,299 @@
+{
+  "uid" : "2816ad866114142d",
+  "name" : "Test05 - VerifyShoppingCart",
+  "fullName" : "sanity.AtidStore.VerifyShoppingCart",
+  "historyId" : "69e52312395873cd4207eb037c49397",
+  "time" : {
+    "start" : 1650743012536,
+    "stop" : 1650743015479,
+    "duration" : 2943
+  },
+  "description" : "This test verifies the button and title of the shopping cart, And adds an item to the shopping cart for checking the integrity of the cart.",
+  "descriptionHtml" : "<p>This test verifies the button and title of the shopping cart, And adds an item to the shopping cart for checking the integrity of the cart.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650742984596,
+      "stop" : 1650742989764,
+      "duration" : 5168
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650743012528,
+      "stop" : 1650743012533,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test verifies the button and title of the shopping cart, And adds an item to the shopping cart for checking the integrity of the cart.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Verify Text field.",
+      "time" : {
+        "start" : 1650743012574,
+        "stop" : 1650743012599,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"ast-site-header-cart\"]/div[1]/a/div/span]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on element.",
+      "time" : {
+        "start" : 1650743012604,
+        "stop" : 1650743013335,
+        "duration" : 731
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"ast-site-header-cart\"]/div[1]/a/div/span]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify Text field.",
+      "time" : {
+        "start" : 1650743013344,
+        "stop" : 1650743013361,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"post-39\"]/div/div/div/section[1]/div/div/div/div/div/h1]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify text in element.",
+      "time" : {
+        "start" : 1650743013367,
+        "stop" : 1650743013404,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"post-39\"]/div/div/div/section[1]/div/div/div/div/div/h1]"
+      }, {
+        "name" : "Expected",
+        "value" : "Cart"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify text in element.",
+      "time" : {
+        "start" : 1650743013413,
+        "stop" : 1650743013447,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"ast-site-header-cart\"]/div[1]/a/span/span/span]"
+      }, {
+        "name" : "Expected",
+        "value" : "0.00 ₪"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on element.",
+      "time" : {
+        "start" : 1650743013456,
+        "stop" : 1650743013804,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> id: menu-item-266]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on element.",
+      "time" : {
+        "start" : 1650743013818,
+        "stop" : 1650743014589,
+        "duration" : 771
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"main\"]/div/ul/li[1]/div[2]/a/h2]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Click on element.",
+      "time" : {
+        "start" : 1650743014598,
+        "stop" : 1650743015290,
+        "duration" : 692
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> name: add-to-cart]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Verify text in element.",
+      "time" : {
+        "start" : 1650743015326,
+        "stop" : 1650743015375,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"ast-site-header-cart\"]/div[1]/a/span/span/span]"
+      }, {
+        "name" : "Expected",
+        "value" : "80.00 ₪"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650743015480,
+      "stop" : 1650743015751,
+      "duration" : 271
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyShoppingCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "16416@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2816ad866114142d.json",
+  "parameterValues" : [ "web" ]
+}

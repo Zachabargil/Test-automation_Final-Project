@@ -1,0 +1,193 @@
+{
+  "uid" : "e336d5d9d1a6e471",
+  "name" : "Test03 - Verification of calculation result.",
+  "fullName" : "sanity.DesktopCalculator.VerifyCalculationResult03",
+  "historyId" : "261860834d0a8cf3c6448bc91e2fa777",
+  "time" : {
+    "start" : 1650432303741,
+    "stop" : 1650432306826,
+    "duration" : 3085
+  },
+  "description" : "This test verifies a Subtraction operation in the calculator.",
+  "descriptionHtml" : "<p>This test verifies a Subtraction operation in the calculator.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650432295130,
+      "stop" : 1650432297443,
+      "duration" : 2313
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650432303730,
+      "stop" : 1650432303738,
+      "duration" : 8
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650432306827,
+      "stop" : 1650432306827,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyCalculationResult03"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "12652@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9b9715e3a8d3c96b",
+      "status" : "failed",
+      "statusDetails" : "expected [Display is 9] but found [Display is 2]",
+      "time" : {
+        "start" : 1650431944894,
+        "stop" : 1650431948138,
+        "duration" : 3244
+      }
+    }, {
+      "uid" : "45797049ce98587c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: Eigth' (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650431811380,
+        "stop" : 1650431822548,
+        "duration" : 11168
+      }
+    }, {
+      "uid" : "3d3b46caf85823d7",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.name: Eigth' (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1650431656079,
+        "stop" : 1650431667307,
+        "duration" : 11228
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "51809c7286257424",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/51809c7286257424",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432303741,
+          "stop" : 1650432306826,
+          "duration" : 3085
+        }
+      }, {
+        "uid" : "c45f0b328cbf5aa5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/c45f0b328cbf5aa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432303741,
+          "stop" : 1650432306826,
+          "duration" : 3085
+        }
+      }, {
+        "uid" : "3bd2a3bde4f53eff",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/3bd2a3bde4f53eff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432303741,
+          "stop" : 1650432306826,
+          "duration" : 3085
+        }
+      }, {
+        "uid" : "865ab432b0813137",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/865ab432b0813137",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432303741,
+          "stop" : 1650432306826,
+          "duration" : 3085
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e336d5d9d1a6e471.json",
+  "parameterValues" : [ "desktop" ]
+}

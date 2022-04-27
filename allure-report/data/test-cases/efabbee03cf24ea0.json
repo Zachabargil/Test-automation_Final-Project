@@ -1,0 +1,239 @@
+{
+  "uid" : "efabbee03cf24ea0",
+  "name" : "Test01 - Verify monthly payment",
+  "fullName" : "sanity.FinancialCalcMobile.VerifyFinancial",
+  "historyId" : "4ac55a484ab1ed08c984fcdc96b913aa",
+  "time" : {
+    "start" : 1650473742311,
+    "stop" : 1650473752277,
+    "duration" : 9966
+  },
+  "description" : "This test verifies the monthly payment of a loan.",
+  "descriptionHtml" : "<p>This test verifies the monthly payment of a loan.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650473704095,
+      "stop" : 1650473742130,
+      "duration" : 38035
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650473742137,
+      "stop" : 1650473742184,
+      "duration" : 47
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650473752287,
+      "stop" : 1650473752287,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.FinancialCalcMobile"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.FinancialCalcMobile"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyFinancial"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.FinancialCalcMobile"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "864@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "mobile"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "45bb2bdf9febc030",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650473660592,
+        "stop" : 1650473670693,
+        "duration" : 10101
+      }
+    }, {
+      "uid" : "1d903e891fa7fdbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650436430852,
+        "stop" : 1650436439000,
+        "duration" : 8148
+      }
+    }, {
+      "uid" : "f1ae59280d49a755",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650436300972,
+        "stop" : 1650436309431,
+        "duration" : 8459
+      }
+    }, {
+      "uid" : "756472a4cda2f2a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650436134707,
+        "stop" : 1650436144298,
+        "duration" : 9591
+      }
+    }, {
+      "uid" : "53fb2cd6c3c4d514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650435884026,
+        "stop" : 1650435892227,
+        "duration" : 8201
+      }
+    }, {
+      "uid" : "92b2123cff152e6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650433878243,
+        "stop" : 1650433887108,
+        "duration" : 8865
+      }
+    }, {
+      "uid" : "9eb274b48e2a8a15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650433752433,
+        "stop" : 1650433761166,
+        "duration" : 8733
+      }
+    }, {
+      "uid" : "2a88cb95f9afa463",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650432520895,
+        "stop" : 1650432530237,
+        "duration" : 9342
+      }
+    }, {
+      "uid" : "3428d557b200ae25",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1650432438265,
+        "stop" : 1650432438267,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "bd45a6c1ce872811",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/bd45a6c1ce872811",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650473742311,
+          "stop" : 1650473752277,
+          "duration" : 9966
+        }
+      }, {
+        "uid" : "573cc916e9d469dd",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/573cc916e9d469dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650473742311,
+          "stop" : 1650473752277,
+          "duration" : 9966
+        }
+      }, {
+        "uid" : "9daae2031b10756d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/9daae2031b10756d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650473742311,
+          "stop" : 1650473752277,
+          "duration" : 9966
+        }
+      }, {
+        "uid" : "b68dd073ec02c8b1",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/b68dd073ec02c8b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650473742311,
+          "stop" : 1650473752277,
+          "duration" : 9966
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "efabbee03cf24ea0.json",
+  "parameterValues" : [ "mobile" ]
+}

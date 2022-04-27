@@ -1,0 +1,206 @@
+{
+  "uid" : "7b78f502eb477103",
+  "name" : "Test01 - Verification of calculation result.",
+  "fullName" : "sanity.DesktopCalculator.VerifyCalculationResult01",
+  "historyId" : "a74f5fefea55764877490371bae5de84",
+  "time" : {
+    "start" : 1650432297561,
+    "stop" : 1650432300634,
+    "duration" : 3073
+  },
+  "description" : "This test verifies a multiplication operation in the calculator.",
+  "descriptionHtml" : "<p>This test verifies a multiplication operation in the calculator.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650432295130,
+      "stop" : 1650432297443,
+      "duration" : 2313
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650432297449,
+      "stop" : 1650432297486,
+      "duration" : 37
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650432300639,
+      "stop" : 1650432300639,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyCalculationResult01"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "12652@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ef315fbb0cd879ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650431938443,
+        "stop" : 1650431941717,
+        "duration" : 3274
+      }
+    }, {
+      "uid" : "dae8b05e684349ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650431804993,
+        "stop" : 1650431808200,
+        "duration" : 3207
+      }
+    }, {
+      "uid" : "93e63b8a912db293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650431649548,
+        "stop" : 1650431652835,
+        "duration" : 3287
+      }
+    }, {
+      "uid" : "4b2d6a5fd6e6bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650431339802,
+        "stop" : 1650431343146,
+        "duration" : 3344
+      }
+    }, {
+      "uid" : "732a2ee50c34a9d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650431283421,
+        "stop" : 1650431286669,
+        "duration" : 3248
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "ad447eec61c13ba5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/ad447eec61c13ba5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432297561,
+          "stop" : 1650432300634,
+          "duration" : 3073
+        }
+      }, {
+        "uid" : "d337dfd7f967776a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/d337dfd7f967776a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432297561,
+          "stop" : 1650432300634,
+          "duration" : 3073
+        }
+      }, {
+        "uid" : "9c4cba23359b7244",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/9c4cba23359b7244",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432297561,
+          "stop" : 1650432300634,
+          "duration" : 3073
+        }
+      }, {
+        "uid" : "e14638a3d69cfeea",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/e14638a3d69cfeea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432297561,
+          "stop" : 1650432300634,
+          "duration" : 3073
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7b78f502eb477103.json",
+  "parameterValues" : [ "desktop" ]
+}

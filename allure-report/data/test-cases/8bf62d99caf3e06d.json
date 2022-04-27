@@ -1,0 +1,230 @@
+{
+  "uid" : "8bf62d99caf3e06d",
+  "name" : "Test07 - Search Products",
+  "fullName" : "sanity.AtidStore.Searchproducts",
+  "historyId" : "a6470563fc6e8d34ae1232e8cbc4adef",
+  "time" : {
+    "start" : 1650742990140,
+    "stop" : 1650742994885,
+    "duration" : 4745
+  },
+  "description" : "This test search product in results using DDT.",
+  "descriptionHtml" : "<p>This test search product in results using DDT.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650742984596,
+      "stop" : 1650742989764,
+      "duration" : 5168
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650742989792,
+      "stop" : 1650742989857,
+      "duration" : 65
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test search product in results using DDT.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on element.",
+      "time" : {
+        "start" : 1650742990202,
+        "stop" : 1650742991059,
+        "duration" : 857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "element",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"menu-item-45\"]/a]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Business Flow: Search and verify product.",
+      "time" : {
+        "start" : 1650742991069,
+        "stop" : 1650742994798,
+        "duration" : 3729
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update text as human.",
+        "time" : {
+          "start" : 1650742991094,
+          "stop" : 1650742993823,
+          "duration" : 2729
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"wc-block-search__input-1\"]]"
+        }, {
+          "name" : "text",
+          "value" : "shoes"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on element.",
+        "time" : {
+          "start" : 1650742993835,
+          "stop" : 1650742994701,
+          "duration" : 866
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"block-7\"]/div/form/div/button]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Element Displayed.",
+        "time" : {
+          "start" : 1650742994779,
+          "stop" : 1650742994798,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Elements",
+          "value" : "[[[ChromeDriver: chrome on WINDOWS (fa61d311378cab852505a4e87510e7eb)] -> xpath: //*[@id=\"main\"]/div/ul]]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productName",
+        "value" : "shoes"
+      }, {
+        "name" : "shouldExist",
+        "value" : "exist"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650742994895,
+      "stop" : 1650742995312,
+      "duration" : 417
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testMethod",
+    "value" : "Searchproducts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "16416@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  }, {
+    "name" : "arg0",
+    "value" : "shoes"
+  }, {
+    "name" : "arg1",
+    "value" : "exist"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8bf62d99caf3e06d.json",
+  "parameterValues" : [ "web", "shoes", "exist" ]
+}

@@ -1,0 +1,381 @@
+{
+  "uid" : "438795159e0cbf99",
+  "name" : "Test01 - Search and Add products using DB credentials",
+  "fullName" : "sanity.AtidStoreDB.SearchProductDB",
+  "historyId" : "30d72981b6d8d39d4901ddafaaddcf72",
+  "time" : {
+    "start" : 1649934834460,
+    "stop" : 1649934837516,
+    "duration" : 3056
+  },
+  "description" : "This test add products to the cart in ATIDSTORE, using DB credentials.",
+  "descriptionHtml" : "<p>This test add products to the cart in ATIDSTORE, using DB credentials.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1649934828233,
+      "stop" : 1649934834175,
+      "duration" : 5942
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1649934834189,
+      "stop" : 1649934834240,
+      "duration" : 51
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test add products to the cart in ATIDSTORE, using DB credentials.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Add products to the cart in ATIDSTORE, using DB credentials",
+      "time" : {
+        "start" : 1649934834482,
+        "stop" : 1649934837342,
+        "duration" : 2860
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get credentials from Database",
+        "time" : {
+          "start" : 1649934834918,
+          "stop" : 1649934835056,
+          "duration" : 138
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "query",
+          "value" : "SELECT ProductName From Products WHERE ID = '1'"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Update text of Element.",
+        "time" : {
+          "start" : 1649934835085,
+          "stop" : 1649934835191,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1f3200b6b24d34e231e3cfa06e4998f2)] -> xpath: //*[@id=\"wc-block-search__input-1\"]]"
+        }, {
+          "name" : "text",
+          "value" : "Black"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Main Page Title.",
+        "time" : {
+          "start" : 1649934837254,
+          "stop" : 1649934837342,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1f3200b6b24d34e231e3cfa06e4998f2)] -> xpath: //*[@id=\"ast-site-header-cart\"]/div[1]/a/span/span/span]"
+        }, {
+          "name" : "Expected",
+          "value" : "61.00 ₪"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1649934837525,
+      "stop" : 1649934837526,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.AtidStoreDB"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.AtidStoreDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchProductDB"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ZachAbargil-FinalProject"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.AtidStoreDB"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "19108@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6ff81e3c30ee3c8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649934442161,
+        "stop" : 1649934445748,
+        "duration" : 3587
+      }
+    }, {
+      "uid" : "8ed7f34926c04161",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649934176190,
+        "stop" : 1649934178288,
+        "duration" : 2098
+      }
+    }, {
+      "uid" : "58486f876b3fd40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649934046487,
+        "stop" : 1649934049767,
+        "duration" : 3280
+      }
+    }, {
+      "uid" : "6cd21510b0c72dc7",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 1",
+      "time" : {
+        "start" : 1649911157742,
+        "stop" : 1649911158582,
+        "duration" : 840
+      }
+    }, {
+      "uid" : "a5445e352649beba",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 0",
+      "time" : {
+        "start" : 1649911109352,
+        "stop" : 1649911110159,
+        "duration" : 807
+      }
+    }, {
+      "uid" : "44350f64e38f2932",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1649876392677,
+        "stop" : 1649876393553,
+        "duration" : 876
+      }
+    }, {
+      "uid" : "99806968cf962aae",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1649876320772,
+        "stop" : 1649876321764,
+        "duration" : 992
+      }
+    }, {
+      "uid" : "7474ec990bb7a6b9",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 0",
+      "time" : {
+        "start" : 1649876279617,
+        "stop" : 1649876280537,
+        "duration" : 920
+      }
+    }, {
+      "uid" : "2361ad3ca22b5e06",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 0",
+      "time" : {
+        "start" : 1649876198988,
+        "stop" : 1649876199965,
+        "duration" : 977
+      }
+    }, {
+      "uid" : "597cdd4ebaa59a",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 0",
+      "time" : {
+        "start" : 1649876013859,
+        "stop" : 1649876014709,
+        "duration" : 850
+      }
+    }, {
+      "uid" : "12519cb394b82902",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 0",
+      "time" : {
+        "start" : 1649875921881,
+        "stop" : 1649875922712,
+        "duration" : 831
+      }
+    }, {
+      "uid" : "8140089a4d602009",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 0",
+      "time" : {
+        "start" : 1649875550067,
+        "stop" : 1649875551035,
+        "duration" : 968
+      }
+    }, {
+      "uid" : "35a1be06822fff14",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 0",
+      "time" : {
+        "start" : 1649873638150,
+        "stop" : 1649873638929,
+        "duration" : 779
+      }
+    }, {
+      "uid" : "d1e037f877556799",
+      "status" : "broken",
+      "statusDetails" : "Index: 0, Size: 0",
+      "time" : {
+        "start" : 1649873416427,
+        "stop" : 1649873417508,
+        "duration" : 1081
+      }
+    }, {
+      "uid" : "b39a4aa87634a6e2",
+      "status" : "broken",
+      "statusDetails" : "Index: 1, Size: 0",
+      "time" : {
+        "start" : 1649873294132,
+        "stop" : 1649873295327,
+        "duration" : 1195
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "8381eab53fd1562a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/8381eab53fd1562a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649934834460,
+          "stop" : 1649934837516,
+          "duration" : 3056
+        }
+      }, {
+        "uid" : "921d916de03f7341",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/921d916de03f7341",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649934834460,
+          "stop" : 1649934837516,
+          "duration" : 3056
+        }
+      }, {
+        "uid" : "3c0bbc3533b5f98",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/3c0bbc3533b5f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649934834460,
+          "stop" : 1649934837516,
+          "duration" : 3056
+        }
+      }, {
+        "uid" : "91c3bc825c590e61",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/91c3bc825c590e61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1649934834460,
+          "stop" : 1649934837516,
+          "duration" : 3056
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "438795159e0cbf99.json",
+  "parameterValues" : [ ]
+}

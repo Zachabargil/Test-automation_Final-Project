@@ -1,0 +1,179 @@
+{
+  "uid" : "58486f876b3fd40",
+  "name" : "Test01 - Search and Add products using DB credentials",
+  "fullName" : "sanity.AtidStoreDB.SearchProductDB",
+  "historyId" : "30d72981b6d8d39d4901ddafaaddcf72",
+  "time" : {
+    "start" : 1649934046487,
+    "stop" : 1649934049767,
+    "duration" : 3280
+  },
+  "description" : "This test add products to the cart in ATIDSTORE, using DB credentials.",
+  "descriptionHtml" : "<p>This test add products to the cart in ATIDSTORE, using DB credentials.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1649934040001,
+      "stop" : 1649934046126,
+      "duration" : 6125
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1649934046139,
+      "stop" : 1649934046211,
+      "duration" : 72
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test add products to the cart in ATIDSTORE, using DB credentials.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Add products to the cart in ATIDSTORE, using DB credentials",
+      "time" : {
+        "start" : 1649934046517,
+        "stop" : 1649934049658,
+        "duration" : 3141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get credentials from Database",
+        "time" : {
+          "start" : 1649934047341,
+          "stop" : 1649934048139,
+          "duration" : 798
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "query",
+          "value" : "SELECT ProductName From Products WHERE ID = '1'"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Update text of Element.",
+        "time" : {
+          "start" : 1649934048178,
+          "stop" : 1649934048310,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "element",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (2f253f27a2837fd98fd7b3beb47ca23a)] -> xpath: //*[@id=\"wc-block-search__input-1\"]]"
+        }, {
+          "name" : "text",
+          "value" : "Black"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1649934049774,
+      "stop" : 1649934050137,
+      "duration" : 363
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.AtidStoreDB"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.AtidStoreDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "SearchProductDB"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ZachAbargil-FinalProject"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.AtidStoreDB"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "15676@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58486f876b3fd40.json",
+  "parameterValues" : [ ]
+}

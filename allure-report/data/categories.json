@@ -1,0 +1,232 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "Test02_AddAndVerifyUser",
+        "uid" : "fcc17c6233b6dbc9",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649965522598,
+          "stop" : 1649965525071,
+          "duration" : 2473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 9,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Start",
+        "uid" : "226116801bd12214",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650430831137,
+          "stop" : 1650430831138,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Start",
+        "uid" : "b3b2635dd4a02b7c",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650432438172,
+          "stop" : 1650432438174,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "mobile" ]
+      }, {
+        "name" : "AfterMethod",
+        "uid" : "48cdf6660127597d",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650473670714,
+          "stop" : 1650473670715,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "children" : [ {
+        "name" : "Start",
+        "uid" : "d03998b630c0c0d4",
+        "parentUid" : "dac5cdb4625e7261b731e4c8f3821e2b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650427855534,
+          "stop" : 1650427855537,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dac5cdb4625e7261b731e4c8f3821e2b"
+    }, {
+      "name" : "unknown error: chrome failed to start\n  (Driver info: chromedriver=2.36 (7ea271f92018b1eeb8e70ec6de8c29f9758a0c05),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 73 milliseconds\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-2A5MDES', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: driver.version: ChromeDriver",
+      "children" : [ {
+        "name" : "Start",
+        "uid" : "99c9253387c2b27c",
+        "parentUid" : "9ccee29d34c85fab1183c1a1301650ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650472242224,
+          "stop" : 1650472242225,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "9ccee29d34c85fab1183c1a1301650ac"
+    }, {
+      "name" : "\nCan inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Start.\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+      "children" : [ {
+        "name" : "Start",
+        "uid" : "f8c3b32e15a1f2d7",
+        "parentUid" : "fd444465426a6f2f06140959a391fc33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650472967484,
+          "stop" : 1650472967488,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd444465426a6f2f06140959a391fc33"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //h1[@class='elementor-heading-title elementor-size-default']' (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test01 - VerifyMainPageTitle",
+        "uid" : "1b84e89729244551",
+        "parentUid" : "73ae5bfe57a518212335db0552d8bca0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650473228054,
+          "stop" : 1650473238614,
+          "duration" : 10560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "73ae5bfe57a518212335db0552d8bca0"
+    }, {
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=100.0.4896.127)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-2A5MDES', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\\Users\\98DD~1\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 94ac981a9127df133ef45a08a435c7a5",
+      "children" : [ {
+        "name" : "Test05 - VerifyShoppingCart",
+        "uid" : "7af9fbb461e4f760",
+        "parentUid" : "ca7164ff28bb8c7216d2750809b1e82d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1650898582008,
+          "stop" : 1650898585999,
+          "duration" : 3991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 23,
+        "retriesStatusChange" : true,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ca7164ff28bb8c7216d2750809b1e82d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [3,696.20] but found [3,696.19]",
+      "children" : [ {
+        "name" : "Test03 - Comparing loans",
+        "uid" : "f0545ceb81c516bb",
+        "parentUid" : "8e5cc202848be259bb2f14c103b7608b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650475050880,
+          "stop" : 1650475065874,
+          "duration" : 14994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 11,
+        "retriesStatusChange" : true,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "8e5cc202848be259bb2f14c103b7608b"
+    }, {
+      "name" : "expected [1] but found [0]",
+      "children" : [ {
+        "name" : "Test01 - Adding tasks, and verifying the number of tasks",
+        "uid" : "b5bbb4bf2fdc7f2c",
+        "parentUid" : "8d997fec59c31d253af1a54e2df2de96",
+        "status" : "failed",
+        "time" : {
+          "start" : 1650742405291,
+          "stop" : 1650742405958,
+          "duration" : 667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 17,
+        "retriesStatusChange" : true,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "8d997fec59c31d253af1a54e2df2de96"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

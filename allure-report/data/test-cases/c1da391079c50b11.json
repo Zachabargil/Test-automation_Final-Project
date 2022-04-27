@@ -1,0 +1,318 @@
+{
+  "uid" : "c1da391079c50b11",
+  "name" : "Test02_AddAndVerifyUser",
+  "fullName" : "sanity.ReqResAPI.Test02_AddAndVerifyUser",
+  "historyId" : "ad4581cebc791326f03d282b277ce2d",
+  "time" : {
+    "start" : 1650791719393,
+    "stop" : 1650791720476,
+    "duration" : 1083
+  },
+  "description" : "This test adds a new user to the list and verifies it.",
+  "descriptionHtml" : "<p>This test adds a new user to the list and verifies it.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650791714513,
+      "stop" : 1650791716749,
+      "duration" : 2236
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650791719390,
+      "stop" : 1650791719390,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test adds a new user to the list and verifies it.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test 02 - Add user and Verify.",
+      "time" : {
+        "start" : 1650791719393,
+        "stop" : 1650791720476,
+        "duration" : 1083
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Business Flow: Create new user",
+        "time" : {
+          "start" : 1650791719393,
+          "stop" : 1650791720466,
+          "duration" : 1073
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Post data to server.",
+          "time" : {
+            "start" : 1650791719395,
+            "stop" : 1650791720466,
+            "duration" : 1071
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "Parameters",
+            "value" : "{\"name\":\"Sean\",\"job\":\"QAEngineer\"}"
+          }, {
+            "name" : "resourse",
+            "value" : "/api/users"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "name",
+          "value" : "Sean"
+        }, {
+          "name" : "job",
+          "value" : "QAEngineer"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Extract value from json.",
+        "time" : {
+          "start" : 1650791720466,
+          "stop" : 1650791720475,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "io.restassured.internal.RestAssuredResponseImpl@2ed7978c"
+        }, {
+          "name" : "path",
+          "value" : "name"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Text.",
+        "time" : {
+          "start" : 1650791720476,
+          "stop" : 1650791720476,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Actual",
+          "value" : "Sean"
+        }, {
+          "name" : "Expected",
+          "value" : "Sean"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650791720478,
+      "stop" : 1650791720478,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ReqResAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ReqResAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test02_AddAndVerifyUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ReqResAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "14596@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eb5eaee5ca8b6634",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363976023,
+        "stop" : 1650363976566,
+        "duration" : 543
+      }
+    }, {
+      "uid" : "75d373ca16f02117",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363482037,
+        "stop" : 1650363482544,
+        "duration" : 507
+      }
+    }, {
+      "uid" : "a72863c34c435f29",
+      "status" : "failed",
+      "statusDetails" : "expected [Seannnnnn] but found [Sean]",
+      "time" : {
+        "start" : 1650362711261,
+        "stop" : 1650362711743,
+        "duration" : 482
+      }
+    }, {
+      "uid" : "299bbb3fc80ec480",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650362674523,
+        "stop" : 1650362675015,
+        "duration" : 492
+      }
+    }, {
+      "uid" : "716c74d0dd84850e",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1650362141113,
+        "stop" : 1650362142072,
+        "duration" : 959
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "a6d34ed2e128f339",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/a6d34ed2e128f339",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650791719393,
+          "stop" : 1650791720476,
+          "duration" : 1083
+        }
+      }, {
+        "uid" : "129ace91a2b1e5eb",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/129ace91a2b1e5eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650791719393,
+          "stop" : 1650791720476,
+          "duration" : 1083
+        }
+      }, {
+        "uid" : "a7279ce9e0db3942",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/a7279ce9e0db3942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650791719393,
+          "stop" : 1650791720476,
+          "duration" : 1083
+        }
+      }, {
+        "uid" : "cf5b79b45a68d770",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/cf5b79b45a68d770",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650363976023,
+          "stop" : 1650363976566,
+          "duration" : 543
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c1da391079c50b11.json",
+  "parameterValues" : [ "api" ]
+}

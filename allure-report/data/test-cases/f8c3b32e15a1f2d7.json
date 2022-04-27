@@ -1,0 +1,141 @@
+{
+  "uid" : "f8c3b32e15a1f2d7",
+  "name" : "Start",
+  "fullName" : "utilities.CommonOps.Start",
+  "historyId" : "acfbe878c3434468c900bb714eb989c",
+  "time" : {
+    "start" : 1650472967484,
+    "stop" : 1650472967488,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "statusMessage" : "\nCan inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Start.\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+  "statusTrace" : "org.testng.TestNGException: \nCan inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Start.\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection\r\n\tat org.testng.internal.Parameters.checkParameterTypes(Parameters.java:458)\r\n\tat org.testng.internal.Parameters.createParametersForMethod(Parameters.java:372)\r\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:729)\r\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\r\n\tat org.testng.TestRunner.run(TestRunner.java:591)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\r\n\tat org.testng.TestNG.run(TestNG.java:1000)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "testMethod",
+    "value" : "Start"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ZachAbargil-FinalProject"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.AtidStore"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "11584@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7dd42f7b35740324",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650472940442,
+        "stop" : 1650472940444,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "16c0a73b7033c011",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method Start but has not been marked @Optional or defined\nin C:\\Users\\צח\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1650143190694,
+        "stop" : 1650143190696,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "284027ec812b1405",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/284027ec812b1405",
+        "status" : "broken",
+        "statusDetails" : "\nCan inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Start.\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+        "time" : {
+          "start" : 1650472967484,
+          "stop" : 1650472967488,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "85c4773f3fff6085",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/85c4773f3fff6085",
+        "status" : "broken",
+        "statusDetails" : "\nCan inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Start.\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+        "time" : {
+          "start" : 1650472967484,
+          "stop" : 1650472967488,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "4a890b9ad02db379",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/4a890b9ad02db379",
+        "status" : "broken",
+        "statusDetails" : "\nCan inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Start.\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+        "time" : {
+          "start" : 1650472967484,
+          "stop" : 1650472967488,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "d3b3968fe1bfa9b",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/d3b3968fe1bfa9b",
+        "status" : "broken",
+        "statusDetails" : "\nCan inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated Start.\nFor more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection",
+        "time" : {
+          "start" : 1650472967484,
+          "stop" : 1650472967488,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f8c3b32e15a1f2d7.json",
+  "parameterValues" : [ ]
+}

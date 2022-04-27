@@ -1,0 +1,260 @@
+{
+  "uid" : "5a986b934370e234",
+  "name" : "Test02_DeleteAndVerifyUser",
+  "fullName" : "sanity.ReqResAPI.Test02_DeleteAndVerifyUser",
+  "historyId" : "e40427f716c84e975293fe633944176c",
+  "time" : {
+    "start" : 1650791720483,
+    "stop" : 1650791723950,
+    "duration" : 3467
+  },
+  "description" : "This test delete user to the list and verifies it.",
+  "descriptionHtml" : "<p>This test delete user to the list and verifies it.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650791714513,
+      "stop" : 1650791716749,
+      "duration" : 2236
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650791720481,
+      "stop" : 1650791720481,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test delete user to the list and verifies it.",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Test 04 - Delete user and Verify.",
+      "time" : {
+        "start" : 1650791720484,
+        "stop" : 1650791723950,
+        "duration" : 3466
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Business Flow: Update user",
+        "time" : {
+          "start" : 1650791720484,
+          "stop" : 1650791723949,
+          "duration" : 3465
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Update data to server.",
+          "time" : {
+            "start" : 1650791720484,
+            "stop" : 1650791723949,
+            "duration" : 3465
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "Parameters",
+            "value" : "{\"name\":\"Sean\",\"job\":\"QAEngineer\"}"
+          }, {
+            "name" : "resourse",
+            "value" : "/api/users/2"
+          } ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "id",
+          "value" : "2"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Verify Number.",
+        "time" : {
+          "start" : 1650791723950,
+          "stop" : 1650791723950,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "Actual",
+          "value" : "204"
+        }, {
+          "name" : "Expected",
+          "value" : "204"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650791723951,
+      "stop" : 1650791723951,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ReqResAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ReqResAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test02_DeleteAndVerifyUser"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ReqResAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "14596@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2d698eb740f4ec0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1650363976573,
+        "stop" : 1650363977066,
+        "duration" : 493
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d607ecc54f96b9d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/d607ecc54f96b9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650791720483,
+          "stop" : 1650791723950,
+          "duration" : 3467
+        }
+      }, {
+        "uid" : "e8c456f4f79b93a7",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/e8c456f4f79b93a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650791720483,
+          "stop" : 1650791723950,
+          "duration" : 3467
+        }
+      }, {
+        "uid" : "8ebe52946d35d44d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/8ebe52946d35d44d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650791720483,
+          "stop" : 1650791723950,
+          "duration" : 3467
+        }
+      }, {
+        "uid" : "cae8e397e1246fd2",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/cae8e397e1246fd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650363976573,
+          "stop" : 1650363977066,
+          "duration" : 493
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5a986b934370e234.json",
+  "parameterValues" : [ "api" ]
+}

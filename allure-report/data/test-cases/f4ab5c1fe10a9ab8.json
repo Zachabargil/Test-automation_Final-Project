@@ -1,0 +1,117 @@
+{
+  "uid" : "f4ab5c1fe10a9ab8",
+  "name" : "Test02 - Verify advanced monthly payment",
+  "fullName" : "sanity.FinancialCalcMobile.VerifyFinancial02",
+  "historyId" : "799f185a2b53717aa9d8b87432079375",
+  "time" : {
+    "start" : 1650436144314,
+    "stop" : 1650436159011,
+    "duration" : 14697
+  },
+  "description" : "This test verifies the advanced monthly payment of a loan.",
+  "descriptionHtml" : "<p>This test verifies the advanced monthly payment of a loan.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650436124218,
+      "stop" : 1650436134572,
+      "duration" : 10354
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650436144305,
+      "stop" : 1650436144312,
+      "duration" : 7
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650436159013,
+      "stop" : 1650436159013,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.FinancialCalcMobile"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.FinancialCalcMobile"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyFinancial02"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.FinancialCalcMobile"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "1276@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "mobile"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4ab5c1fe10a9ab8.json",
+  "parameterValues" : [ "mobile" ]
+}

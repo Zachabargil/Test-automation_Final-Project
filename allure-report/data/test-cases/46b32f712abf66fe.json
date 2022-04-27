@@ -1,0 +1,166 @@
+{
+  "uid" : "46b32f712abf66fe",
+  "name" : "Test04 - Verification of calculation result.",
+  "fullName" : "sanity.DesktopCalculator.VerifyCalculationResult04",
+  "historyId" : "83f314264ddd648677a41f4c82150f55",
+  "time" : {
+    "start" : 1650432306836,
+    "stop" : 1650432310451,
+    "duration" : 3615
+  },
+  "description" : "This test verifies a Division operation in the calculator.",
+  "descriptionHtml" : "<p>This test verifies a Division operation in the calculator.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "Start",
+    "time" : {
+      "start" : 1650432295130,
+      "stop" : 1650432297443,
+      "duration" : 2313
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1650432306829,
+      "stop" : 1650432306834,
+      "duration" : 5
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1650432310452,
+      "stop" : 1650432310452,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyCalculationResult04"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.DesktopCalculator"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2A5MDES"
+  }, {
+    "name" : "thread",
+    "value" : "12652@DESKTOP-2A5MDES.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "3144074d998d01ce",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/11/allure/#testresult/3144074d998d01ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432306836,
+          "stop" : 1650432310451,
+          "duration" : 3615
+        }
+      }, {
+        "uid" : "393e1a14bfc9bf3e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/10/allure/#testresult/393e1a14bfc9bf3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432306836,
+          "stop" : 1650432310451,
+          "duration" : 3615
+        }
+      }, {
+        "uid" : "84ce06f5bf0f6458",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/9/allure/#testresult/84ce06f5bf0f6458",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432306836,
+          "stop" : 1650432310451,
+          "duration" : 3615
+        }
+      }, {
+        "uid" : "3d61e9cd4003d9c",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20WEB/8/allure/#testresult/3d61e9cd4003d9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650432306836,
+          "stop" : 1650432310451,
+          "duration" : 3615
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "46b32f712abf66fe.json",
+  "parameterValues" : [ "desktop" ]
+}
