@@ -5,7 +5,7 @@ Hello everyone.
 
 Here is my final project from the course Full Stack Test Automation I did, in the project you can see an infrastructure that supports a large number of platforms while using frameworks such as: Selenium, TestNG, Appium and more..
 
-## Supported Platforms
+## Supported Platforms :
 
 - Web 
 
@@ -19,7 +19,7 @@ Here is my final project from the course Full Stack Test Automation I did, in th
 
 - Electron App
 
-## Libraries Used:
+## Libraries Used :
 
 - [TestNG](https://testng.org/doc/) - TestNG is a unit testing framework specifically designed to develop automated testing. This is a framework written in Java and is based on another framework - Junit.
 
@@ -40,3 +40,32 @@ Here is my final project from the course Full Stack Test Automation I did, in th
 - [JSoup](https://mvnrepository.com/artifact/org.jsoup/jsoup) - jsoup is a Java library for working with real-world HTML.
 
 - [MySQL Connector/J](https://mvnrepository.com/artifact/mysql/mysql-connector-java) - For integrating MySQL DB testing.
+
+## Installation :
+
+- https://maven.apache.org/install.html - For running the project.
+- https://docs.qameta.io/allure/ - To see allure results.
+- https://github.com/Microsoft/WinAppDriver/releases - For Desktop Tests.
+- https://appium.io/ - AppiumStudio For Mobile Tests.
+- https://apkfun.com/down_Financial-Calculators.10301702.html - The app apk for Mobile Tests (need to install on the device mobile first).
+- https://www.electronjs.org/apps/todolist - "TODO" electron app to install for Electron Tests.
+
+## Running Tests :
+
+To run tests, run the following command
+
+```bash
+  mvn test -PWebTests
+```
+```bash
+  mvn test -PDesktopTests
+```
+```bash
+  mvn test -PElectronTests
+```
+```bash
+  mvn test -PAPITests
+```
+```bash
+  mvn test -PMobileTests
+```
