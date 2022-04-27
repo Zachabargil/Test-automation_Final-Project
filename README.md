@@ -1,5 +1,5 @@
 
-# Test-Automation_Final-Project
+# Full Stack Test Automation - Final Project.
 
 Hello everyone.
 
