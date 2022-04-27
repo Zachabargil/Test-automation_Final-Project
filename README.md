@@ -52,20 +52,20 @@ Here is my final project from the course Full Stack Test Automation I did, in th
 
 ## Running Tests :
 
-To run tests, run the following command
+To run the tests,  run the following command :
 
 ```bash
-  mvn test -PWebTests
+  mvn test -PWeb
 ```
 ```bash
-  mvn test -PDesktopTests
+  mvn test -PMobile
 ```
 ```bash
-  mvn test -PElectronTests
+  mvn test -PElectron
 ```
 ```bash
-  mvn test -PAPITests
+  mvn test -PAPI
 ```
 ```bash
-  mvn test -PMobileTests
+  mvn test -PDesktop
 ```
