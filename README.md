@@ -21,7 +21,7 @@ Here is my final project from the course Full Stack Test Automation I did, in th
 
 - Electron App
 
-## Libraries Used :
+## Tools And Frameworks :
 
 - [TestNG](https://testng.org/doc/) - TestNG is a unit testing framework specifically designed to develop automated testing. This is a framework written in Java and is based on another framework - Junit.
 
