@@ -21,7 +21,7 @@ Here is my final project from the course Full Stack Test Automation I did, in th
 
 - Electron App
 
-## Tools And Frameworks :
+## Tools & Frameworks :
 
 - [TestNG](https://testng.org/doc/) - TestNG is a unit testing framework specifically designed to develop automated testing. This is a framework written in Java and is based on another framework - Junit.
 
@@ -42,6 +42,13 @@ Here is my final project from the course Full Stack Test Automation I did, in th
 - [JSoup](https://mvnrepository.com/artifact/org.jsoup/jsoup) - jsoup is a Java library for working with real-world HTML.
 
 - [MySQL Connector/J](https://mvnrepository.com/artifact/mysql/mysql-connector-java) - For integrating MySQL DB testing.
+
+## List of applications used in the project :
+- Atid.Store - Web based application.
+- FinancialCalculators - Mobile application.
+- REQRES - Web API
+- ToDoList - Electron application.
+- Windows Calculator - Desktop application.
 
 ## Installation :
 
