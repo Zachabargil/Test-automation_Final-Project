@@ -64,17 +64,17 @@ Here is my final project from the course Full Stack Test Automation I did, in th
 To run the tests,  run the following command :
 
 ```bash
-  mvn test -PWeb
+  mvn test -PWebTests
 ```
 ```bash
-  mvn test -PMobile
+  mvn test -PMobileTests
 ```
 ```bash
-  mvn test -PElectron
+  mvn test -PElectronTests
 ```
 ```bash
-  mvn test -PAPI
+  mvn test -PAPITests
 ```
 ```bash
-  mvn test -PDesktop
+  mvn test -PDesktopTests
 ```
