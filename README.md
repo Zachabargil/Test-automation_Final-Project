@@ -78,3 +78,12 @@ To run the tests,  run the following command :
 ```bash
   mvn test -PDesktopTests
 ```
+
+To see the results, run the command:
+
+```bash
+  allure serve allure-results
+```
+
+## Here is an example of running the Web department :
+![alt text](https://postimg.cc/kRC5GHs2)
