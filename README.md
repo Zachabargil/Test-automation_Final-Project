@@ -86,4 +86,4 @@ To see the results, run the command:
 ```
 
 ## Here is an example of running the Web department :
-![alt text](https://postimg.cc/kRC5GHs2)
+![alt text](https://i.postimg.cc/3N40S5DF/allure.png)
